@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button style="position: sticky;top: 5px;left: 5px;" type="button" onclick="loadDoc()">Request bacno</button>
+    <p id="demo"></p>
+    <script>
+        function loadDoc(){
+            const xhttp = new XMLHttpRequest();
+            xhttp.onload = function(){
+                //document.getElementById("demo").innerHTML = this.responseText;
+                var temp = ""
+                var parsed = JSON.parse(this.responseText)
+                for (const element of parsed) {
+                    temp += `<p>${element}</p>`
+                }
+                document.getElementById("demo").innerHTML = temp
+            }
+            xhttp.open("GET","https://baconipsum.com/api/?type=all-meat")
+            xhttp.send()
+        }
+    </script>
+</body>
+</html>
