@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<arvuti>
+    <toiteplokk>
+        <voimsus>600W</voimsus>
+    </toiteplokk>
+    <protsessor tootja="Intel">
+        <nimi>i5-3340</nimi>
+        <kiirus>3.10GHz</kiirus>
+    </protsessor>
+    <malu kogus="2" tyyp="DDR3">
+        <maht>16GB</maht>
+        <nimi></nimi>
+    </malu>
+    <salvestusruum kogus="2">
+        <ketas tyyp="hdd" kiirus="6Gbps">1TB</ketas>
+        <ketas tyyp="nvme" kiirus="25Gbps">256GB</ketas>
+    </salvestusruum>
+    <graafika>
+        <nimi>GTX 750</nimi>
+        <video_maht>2GB</video_maht>
+    </graafika>
+</arvuti>
