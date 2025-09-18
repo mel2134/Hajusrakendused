@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<autod>
+	<auto>
+		<registrinumber>ABC123</registrinumber>
+		<omanik>Petersoo</omanik>
+	</auto>
+	<auto>
+		<registrinumber>XYZ567</registrinumber>
+		<omanik>Tamm</omanik>
+	</auto>
+	<auto>
+		<registrinumber>DEF345</registrinumber>
+		<omanik>Kask</omanik>
+	</auto>
+	<auto>
+		<registrinumber>GHI789</registrinumber>
+		<omanik>Rebane</omanik>
+	</auto>
+	<auto>
+		<registrinumber>JKL011</registrinumber>
+		<omanik>Kivi</omanik>
+	</auto>
+</autod>
