@@ -20,6 +20,18 @@
         <div>
             <asp:Xml ID="xml4" runat="server" DocumentSource="~/inimesed.xml" TransformSource="~/inimesed3.xsl"></asp:Xml>
         </div>
+        <div>
+            <asp:Xml ID="xml5" runat="server" DocumentSource="~/inimesed.xml" TransformSource="~/mitu_kordust.xslt"></asp:Xml>
+        </div>
+        <div>
+            <asp:Xml ID="xml6" runat="server" DocumentSource="~/inimesed.xml" TransformSource="~/mitu_kordust_varv.xslt"></asp:Xml>
+        </div>
+        <div>
+            <asp:Xml ID="xml7" runat="server" DocumentSource="~/inimesed.xml" TransformSource="~/mitu_kordust_ristuvad.xslt"></asp:Xml>
+        </div>
+        <div>
+            <asp:Xml ID="xml8" runat="server" DocumentSource="~/inimesed.xml" TransformSource="~/mitu_kordust_ristuvad_mitte.xslt"></asp:Xml>
+        </div>
     </form>
 </body>
 </html>
