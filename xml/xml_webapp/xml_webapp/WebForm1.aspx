@@ -52,6 +52,10 @@
         <div>
             <asp:Xml ID="xml13" runat="server" DocumentSource="~/inimesed.xml" TransformSource="~/sql.xslt"></asp:Xml>
         </div>
+        
+        <div>
+            <asp:Xml ID="xml333333333333333333333333333333333333333333333313" runat="server" DocumentSource="~/inimesed.xml" TransformSource="~/mall.xslt"></asp:Xml>
+        </div>
     </form>
 </body>
 </html>

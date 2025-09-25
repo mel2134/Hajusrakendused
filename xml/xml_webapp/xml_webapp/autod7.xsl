@@ -5,7 +5,7 @@
 		<table border="1">
 			<tr>
 				<th>Registri number</th>
-				<th>Perekonnanimi</th>
+				<th>perenimi</th>
 			</tr>
 			<xsl:for-each select="autod/auto">
 				<tr>
