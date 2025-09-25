@@ -90,6 +90,7 @@
     <Content Include="params.aspx" />
     <Content Include="sql.xslt" />
     <Content Include="sugupuu_ylesanne\lapsed.xslt" />
+    <Content Include="sugupuu_ylesanne\otsing.xslt" />
     <Content Include="sugupuu_ylesanne\tabelina.xslt" />
     <Content Include="sugupuu_ylesanne\kaks_last.xslt" />
     <Content Include="sugupuu_ylesanne\koikide_synni_aastad.xslt" />

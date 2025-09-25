@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Xml.Xsl;
 
 namespace xml_webapp.sugupuu_ylesanne
 {
@@ -11,7 +12,13 @@ namespace xml_webapp.sugupuu_ylesanne
 	{
 		protected void Page_Load(object sender, EventArgs e)
 		{
-
-		}
+            XsltArgumentList p = new XsltArgumentList();
+            p.AddParam("otsing", "", kast1.Text);
+            if (int.TryParse(kast2.Text, out int _))
+            {
+                p.AddParam("pikkus", "", kast2.Text);
+            }
+            xml1.TransformArgumentList = p;
+        }
 	}
 }

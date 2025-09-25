@@ -1,6 +1,7 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="sugupuu.aspx.cs" Inherits="xml_webapp.sugupuu_ylesanne.sugupuu" %>
 
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
@@ -22,6 +23,17 @@
         </div>
         <div>
             <asp:Xml ID="xml5" runat="server" DocumentSource="~/sugupuu_ylesanne/sugupuu.xml" TransformSource="~/sugupuu_ylesanne/vanem_synni_ajal.xslt"></asp:Xml>
+        </div>
+        <div>
+            <pre>
+ <asp:Xml ID="xml6" runat="server" DocumentSource="~/sugupuu_ylesanne/sugupuu.xml"
+TransformSource="~/sugupuu_ylesanne/otsing.xslt" />
+ </pre>
+            Otsitav tekst:
+        <asp:TextBox ID="kast1" runat="server" /><br />
+            Miinimumpikkus:
+        <asp:TextBox ID="kast2" runat="server" /><br />
+            <asp:Button runat="server" Text="Sisesta" />
         </div>
     </form>
 </body>
