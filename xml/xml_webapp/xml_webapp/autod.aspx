@@ -29,6 +29,25 @@
         <div>
             <asp:Xml ID="xml12223" runat="server" DocumentSource="~/autod.xml" TransformSource="~/autod7.xsl"></asp:Xml>
         </div>
+        <div>
+            <asp:Xml ID="xml122223" runat="server" DocumentSource="~/autod.xml" TransformSource="~/universaalne.xslt"></asp:Xml>
+        </div>
+        <div>
+            <asp:Xml ID="xml1" runat="server" DocumentSource="~/autod.xml" TransformSource="~/universaalne_tabe.xslt"></asp:Xml>
+        </div>
+        <div>
+            <asp:Xml ID="xml2221" runat="server" DocumentSource="~/autod.xml" TransformSource="~/loetelu.xslt"></asp:Xml>
+        </div>
+        
+        
+        <div>
+            <asp:Xml ID="xml12123123123" runat="server" DocumentSource="~/autod.xml" TransformSource="~/komaga.xslt"></asp:Xml>
+        </div>
+        
+        
+        <div>
+            <asp:Xml ID="xml1123" runat="server" DocumentSource="~/autod.xml" TransformSource="~/sql.xslt"></asp:Xml>
+        </div>
     </form>
 </body>
 </html>

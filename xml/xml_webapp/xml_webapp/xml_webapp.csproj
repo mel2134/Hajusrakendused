@@ -79,10 +79,15 @@
     <Content Include="inimesed1.xsl" />
     <Content Include="inimesed.xml" />
     <Content Include="inimesed.xsl" />
+    <Content Include="komaga.xslt" />
+    <Content Include="loetelu.xslt" />
     <Content Include="mitu_kordust.xslt" />
     <Content Include="mitu_kordust_ristuvad_mitte.xslt" />
     <Content Include="mitu_kordust_varv.xslt" />
     <Content Include="mitu_kordust_ristuvad.xslt" />
+    <Content Include="sql.xslt" />
+    <Content Include="universaalne.xslt" />
+    <Content Include="universaalne_tabe.xslt" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
     <Content Include="autod.aspx" />

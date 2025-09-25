@@ -32,6 +32,26 @@
         <div>
             <asp:Xml ID="xml8" runat="server" DocumentSource="~/inimesed.xml" TransformSource="~/mitu_kordust_ristuvad_mitte.xslt"></asp:Xml>
         </div>
+        <div>
+            <asp:Xml ID="xml9" runat="server" DocumentSource="~/inimesed.xml" TransformSource="~/universaalne.xslt"></asp:Xml>
+        </div>
+        
+        <div>
+            <asp:Xml ID="xml10" runat="server" DocumentSource="~/inimesed.xml" TransformSource="~/universaalne_tabe.xslt"></asp:Xml>
+        </div>
+        
+        <div>
+            <asp:Xml ID="xml11" runat="server" DocumentSource="~/inimesed.xml" TransformSource="~/loetelu.xslt"></asp:Xml>
+        </div>
+        
+        <div>
+            <asp:Xml ID="xml12" runat="server" DocumentSource="~/inimesed.xml" TransformSource="~/komaga.xslt"></asp:Xml>
+        </div>
+        
+        
+        <div>
+            <asp:Xml ID="xml13" runat="server" DocumentSource="~/inimesed.xml" TransformSource="~/sql.xslt"></asp:Xml>
+        </div>
     </form>
 </body>
 </html>

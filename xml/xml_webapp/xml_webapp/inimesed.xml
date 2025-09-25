@@ -5,24 +5,28 @@
         <perenimi>Juurikas</perenimi>
         <synd>1963</synd>
 		<sugu>mees</sugu>
-    </inimene>
+		<mass>100kg</mass>
+	</inimene>
     <inimene>
         <eesnimi>Juhan</eesnimi>
         <perenimi>Kaalikas</perenimi>
         <synd>1961</synd>
 		<sugu>mees</sugu>
+		<mass>100kg</mass>
     </inimene>
     <inimene>
         <eesnimi>Kalle</eesnimi>
         <perenimi>Kaalikas</perenimi>
         <synd>1975</synd>
 		<sugu>mees</sugu>
+		<mass>100kg</mass>
     </inimene>
     <inimene>
         <eesnimi>Mari</eesnimi>
         <perenimi>Maasikas</perenimi>
         <synd>1981</synd>
 		<sugu>naine</sugu>
+		<mass>100kg</mass>
     </inimene>
     <!-- <inimene>
         <eesnimi>Oskar</eesnimi>
