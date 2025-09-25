@@ -85,6 +85,8 @@
     <Content Include="mitu_kordust_ristuvad_mitte.xslt" />
     <Content Include="mitu_kordust_varv.xslt" />
     <Content Include="mitu_kordust_ristuvad.xslt" />
+    <Content Include="param.xslt" />
+    <Content Include="params.aspx" />
     <Content Include="sql.xslt" />
     <Content Include="universaalne.xslt" />
     <Content Include="universaalne_tabe.xslt" />
@@ -95,6 +97,13 @@
   <ItemGroup>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="params.aspx.cs">
+      <DependentUpon>params.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="params.aspx.designer.cs">
+      <DependentUpon>params.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WebForm1.aspx.cs">
