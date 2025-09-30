@@ -83,7 +83,9 @@
     <Content Include="loetelu.xslt" />
     <Content Include="mall.xslt" />
     <Content Include="mitu_kordust.xslt" />
-    <Content Include="mitu_kordust_ristuvad_mitte.xslt" />
+    <Content Include="mitu_kordust_ristuvad_mitte.xslt">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="mitu_kordust_varv.xslt" />
     <Content Include="mitu_kordust_ristuvad.xslt" />
     <Content Include="param.xslt" />
@@ -96,6 +98,7 @@
     <Content Include="sugupuu_ylesanne\koikide_synni_aastad.xslt" />
     <Content Include="sugupuu_ylesanne\sugupuu.aspx" />
     <Content Include="sugupuu_ylesanne\sugupuu.xml" />
+    <Content Include="sugupuu_ylesanne\varv.xslt" />
     <Content Include="sugupuu_ylesanne\vanem_synni_ajal.xslt" />
     <Content Include="universaalne.xslt" />
     <Content Include="universaalne_tabe.xslt" />

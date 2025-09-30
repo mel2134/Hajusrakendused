@@ -1,103 +1,86 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<inimene>
+<inimene synd="1926">
 	<eesnimi>Elizabeth</eesnimi>
 	<perenimi>Windsor</perenimi>
-	<synd>1926</synd>
 	<lapsed>
-		<inimene>
+		<inimene synd="1948">
 			<eesnimi>Charles</eesnimi>
 			<perenimi>Mountbatten-Windsor</perenimi>
-			<synd>1948</synd>
 			<lapsed>
-				<inimene>
+				<inimene synd="1982">
 					<eesnimi>William</eesnimi>
 					<perenimi>Mountbatten-Windsor</perenimi>
-					<synd>1982</synd>
 					<lapsed>
-						<inimene>
+						<inimene synd="2013">
 							<eesnimi>George</eesnimi>
 							<perenimi>Mountbatten-Windsor</perenimi>
-							<synd>2013</synd>
 						</inimene>
-						<inimene>
+						<inimene synd="2015">
 							<eesnimi>Charlotte</eesnimi>
 							<perenimi>Mountbatten-Windsor</perenimi>
-							<synd>2015</synd>
 						</inimene>
-						<inimene>
+						<inimene synd="2018">
 							<eesnimi>Louis</eesnimi>
 							<perenimi>Mountbatten-Windsor</perenimi>
-							<synd>2018</synd>
 						</inimene>
 					</lapsed>
 				</inimene>
-				<inimene>
+				<inimene synd="1984">
 					<eesnimi>Harry</eesnimi>
 					<perenimi>Mountbatten-Windsor</perenimi>
-					<synd>1984</synd>
 					<lapsed>
-						<inimene>
+						<inimene synd="2019">
 							<eesnimi>Archie</eesnimi>
 							<perenimi>Mountbatten-Windsor</perenimi>
-							<synd>2019</synd>
 						</inimene>
-						<inimene>
+						<inimene synd="2021">
 							<eesnimi>Lilibet</eesnimi>
 							<perenimi>Mountbatten-Windsor</perenimi>
-							<synd>2021</synd>
 						</inimene>
 					</lapsed>
 				</inimene>
 			</lapsed>
 		</inimene>
-		<inimene>
+		<inimene synd="1950">
 			<eesnimi>Anne</eesnimi>
 			<perenimi>Windsor</perenimi>
 			<synd>1950</synd>
 			<lapsed>
-				<inimene>
+				<inimene synd="1977">
 					<eesnimi>Peter</eesnimi>
 					<perenimi>Phillips</perenimi>
-					<synd>1977</synd>
 				</inimene>
-				<inimene>
+				<inimene synd="1981">
 					<eesnimi>Zara</eesnimi>
 					<perenimi>Tindall</perenimi>
-					<synd>1981</synd>
 				</inimene>
 			</lapsed>
 		</inimene>
-		<inimene>
+		<inimene synd="1960">
 			<eesnimi>Andrew</eesnimi>
 			<perenimi>Windsor</perenimi>
-			<synd>1960</synd>
 			<lapsed>
-				<inimene>
+				<inimene synd="1988">
 					<eesnimi>Beatrice</eesnimi>
 					<perenimi>Mozzi</perenimi>
-					<synd>1988</synd>
 				</inimene>
-				<inimene>
+				<inimene synd="1990">
 					<eesnimi>Eugenie</eesnimi>
 					<perenimi>Brooksbank</perenimi>
-					<synd>1990</synd>
 				</inimene>
 			</lapsed>
 		</inimene>
-		<inimene>
+		<inimene synd="1964">
 			<eesnimi>Edward</eesnimi>
 			<perenimi>Windsor</perenimi>
-			<synd>1964</synd>
 			<lapsed>
-				<inimene>
+				<inimene synd="2003">
 					<eesnimi>Louise</eesnimi>
 					<perenimi>Mountbatten-Windsor</perenimi>
-					<synd>2003</synd>
 				</inimene>
-				<inimene>
+				<inimene synd="2007">
 					<eesnimi>James</eesnimi>
 					<perenimi>Mountbatten-Windsor</perenimi>
-					<synd>2007</synd>
 				</inimene>
 			</lapsed>
 		</inimene>

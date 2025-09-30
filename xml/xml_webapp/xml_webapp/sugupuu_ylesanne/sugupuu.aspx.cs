@@ -18,7 +18,7 @@ namespace xml_webapp.sugupuu_ylesanne
             {
                 p.AddParam("pikkus", "", kast2.Text);
             }
-            xml1.TransformArgumentList = p;
+            xml6.TransformArgumentList = p;
         }
 	}
 }

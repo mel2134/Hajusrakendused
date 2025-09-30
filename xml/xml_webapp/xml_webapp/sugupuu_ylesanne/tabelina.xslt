@@ -22,7 +22,7 @@
 						<xsl:value-of select="perenimi" />
 					</td>
 					<td>
-						<xsl:value-of select="synd" />
+						<xsl:value-of select="@synd" />
 					</td>
 					<td>
 						<xsl:value-of select="count(lapsed/inimene)" />

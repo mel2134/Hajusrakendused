@@ -5,7 +5,12 @@
 		<ul>
 			<xsl:for-each select="//inimene">
 				<li>
-					<xsl:value-of select="eesnimi" /> - <xsl:value-of select="@synd" />
+					<span>
+						<xsl:if test="string-length(eesnimi) &lt; 7">
+							<xsl:attribute name="style">background-color:green</xsl:attribute>
+						</xsl:if>
+						<xsl:value-of select="eesnimi" />
+					</span>
 				</li>
 			</xsl:for-each>
 		</ul>

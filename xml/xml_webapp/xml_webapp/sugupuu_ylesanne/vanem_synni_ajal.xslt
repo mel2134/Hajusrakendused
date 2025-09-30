@@ -4,10 +4,9 @@
 xmlns:msxsl="urn:schemas-microsoft-com:xslt" exclude-result-prefixes="msxsl">
 	<xsl:output method="html" indent="yes" />
 	<xsl:template match="/">
-		<h1>vanema vanus lapse sünni ajal</h1>
 		<xsl:for-each select="//inimene">
 			<xsl:if test="count(lapsed/inimene)=0">
-				<xsl:value-of select="../../eesnimi"/> oli <xsl:value-of select="(synd - ../../synd)"/> aastat vana kui <xsl:value-of select="eesnimi"/> sündis
+				<xsl:value-of select="../../eesnimi"/> oli <xsl:value-of select="(@synd - ../../@synd)"/> aastat vana kui <xsl:value-of select="eesnimi"/> sündis
 				<br/>
 			</xsl:if>
 		</xsl:for-each>

@@ -5,7 +5,7 @@
 	<xsl:template match="/">
 		<xsl:for-each select="//inimene">
 			<xsl:if test="count(lapsed/inimene)=0">
-				<xsl:value-of select="eesnimi"/> - <xsl:value-of select="(2025 - synd)"/><br/>
+				<xsl:value-of select="eesnimi"/> - <xsl:value-of select="(2025 - @synd)"/><br/>
 			</xsl:if>
 		</xsl:for-each>
 	</xsl:template>
